@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(img/tmb_238044_420780.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(248, 29, 29);
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    border-radius: 25px;
+    font-size: 25px;
+}
+ul li a:hover{
+    background-color: red;
+    color: black;
+}
+.logo  img{
+float: right;
+width: 250px;
+height: auto;
+margin-top: -80px;
+margin-right: 20px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: red;
+    border: 5px whitesmoke;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-right-color: red;
+    border-bottom-color: red;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    font-size: 70px;
+    padding: 20px;
+    font-weight: bold;
+}
+.title h1 span{
+    color: white;
+}
+.title p{
+    color: white;
+    position: absolute;
+    top: 120%;
+    transition: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px  0;
+    
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: red;
+    margin-left: 10px;
+}
+
+
+.section-1{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(64, 64, 121);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-1-wrapper{
+    width: 88%;
+    margin: auto;
+}
+.section-1 h1{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 450;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 190px;
+    height: 260px;
+    background: url(img/baldurs-gate-3-thumb-1-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 25px;
+    border-radius: 10px;
+    
+}
+.section-1-img .img-2{
+    background: url(img/assassins-creed-valhalla-thumb-468x702.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.section-1-img .img-3{
+    background: url(img/spider-man-2018-thumb-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.section-1-img .img-4{
+    background: url(img/fallout-4-thumb-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-5{
+    background: url(img/tom-clancys-rainbow-six-siege-thumb-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-6{
+    background: url(img/god-of-war-ragnarok-thumb-468x702.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-7{
+    background: url(img/cyberpunk-2077-thumb-1-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-8{
+    background: url(img/grand-theft-auto-v-thumb-1-400x600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.game-categories{
+    width: 88%;
+    margin: auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: red;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 180px;
+    height: 250px;
+    background: url(img/hogwarts-legacy-thumb-468x702.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 180px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    
+}
+
+
+.gw-1{
+    background: url(img/iuwe5myk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(img/yuspxjf5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(img/hwhnztqb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(img/1l3cfnha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(img/qdmpduzx.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(img/b1gkztkz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(img/ibqw41nc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(img/u4rf0ccc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(img/p4bh3wqi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-10{
+    background: url(img/vf0goil3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/534435326.jpg);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: red;
+   
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-image{
+    width: 200px;
+    height: 200px;
+    background: url(img/be3a8a096a-2_1390x600.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+}
+.players span{
+    font-size: 1.5rem;
+    color: chocolate;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.p-image-2{
+    background: url(img/pc-logo-monogram-with-slash-style-design-template-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-3{
+    background: url(img/xbox-logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-4{
+    background: url(img/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: url(img/i.webp);
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(img/6533.jpg_wh1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.f-image-2{
+    background: url(img/smart-streamer-playing-battle-team-with-streaming-online-shooting-gun-surmise_31965-358772.avif);
+    background-size: cover;
+    background-position: center;
+    height: 322px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 55vh;
+    background: rgba(114, 114, 199, 0.951);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+ul.Rav{
+display: inline;
+list-style: none;
+
+}
+ul.Rav  h3{
+    color: #fff;
+    font-weight: 450;
+    
+}
+ul.Rav  li{
+    list-style: none;
+    line-height: 2.5rem;
+    font-size: 68px;
+    
+}
+ul.Rav  li a{
+    text-decoration: none;
+   color: #fff;
+   font-weight: 300;
+}
+ul.Rav  li a:hover{
+    color: #37510f;
+    background-color: rgb(54, 119, 198);
+    
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: rgba(71, 71, 149, 0.951);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.toggle-btn{
+    display: none;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+#menu-btn-toggle{
+    font-size: 30px;
+    color: white;
+}
+
+#menu-btn-toggle:hover{
+    cursor: pointer;
+}
+
+.hero-section{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+   display: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 5px;
+    padding: 15px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    flex-direction: row;
+    height: auto;
+    width: 350px;
+}
+
+.form form{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.form button{
+    background: rgb(240, 60, 60);
+    border: none;
+}
+
+.form button:hover{
+    background: rgb(230, 60, 60);
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+.exit-btn{
+    display: flex;
+    justify-content: end;
+}
+.exit-btn button{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.form form div{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+.form #login-exit{
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+label{
+    font-size: 14px;
+}
+
+.form form .remember-section,
+.form form .remember-section div,
+.form form .account-section,
+.form form .agree-section {
+    flex-direction: row;
+}
+
+.form form .remember-section{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form form .remember-section input[type="checkbox"],
+.form form .agree-section input[type='checkbox']{
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(240, 60, 60);
+}
+
+.form form .remember-section label,
+.form form .agree-section label{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form form .remember-section a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form form .account-section{
+    justify-content: center;
+}
+
+.form form input[type='email'],
+.form form input[type='password'],
+.form form input[type='text']{
+    margin-top: 0.5rem;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.form form input[type='email']:focus,
+.form form input[type='password']:focus{
+    outline: none;
+}
+
+.form form .account-section button{
+    background: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.form .submit-btn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+     nav  ul{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        position: fixed;
+        top: -500%;
+        left: 0px;
+        padding: 2rem 0;
+        transition: all 1s;
+        background: transparent;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+        border-bottom: 2px solid rgba(255, 255, 255, .2);
+        background-color: #0d0d0f;
+     }
+
+     nav ul li,
+     .menu ul li:last-of-type{
+        margin: 1rem auto;
+     }
+
+     .toggle-btn{
+        display: flex;
+        width: 75%;
+
+     }
+}
+
+/* about*/
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(64, 64, 121) ;
+}
+.about .contentBx{
+    width: 50%;
+    margin: 20px;
+}
+.about .contentBx h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+    text-align: justify;
+}
+.about .contentBx p{
+    max-width: 600px;
+    text-align: justify;
+    color: #dbd9d9;
+    font-size: 21px;
+}
+.about .contentBx a{
+    display: inline-block;
+    padding: 10 px 20px;
+    margin: 10px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.about .contentBx a:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+
+}
+.about img{
+    width: 700px;
+    height: 500px;
+}
+
+/*contact*/
+.contact{
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(64, 64, 121) ;
+}
+.contact img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact .form12{
+    width: 50%;
+    margin: 30px;
+}
+.contact .form12 h1{
+    color: #fff;
+    font-size: 50px;
+}
+.contact .form12 .inputBx{
+    margin: 10px 0;
+}
+.contact .form12 .inputBx p{
+    color: #fff;
+}
+.contact .form12 .inputBx input,
+.contact .form12 .inputBx textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: #1b2141;
+    min-height: 15px;
+    font-size: 1.1em;
+}
+.contact .form12 .inputBx textarea{
+    height: 150px;
+}
+.contact .form12 .inputBx input[type="submit"]{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.contact .form12 .inputBx input[type="submit"]:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
